@@ -36,3 +36,6 @@ Get-AppxPackage *xboxapp* | Remove-AppxPackage
 Get-AppxPackage *xboxIdentityprovider* | Remove-AppxPackage
 Get-AppxPackage *xing* | Remove-AppxPackage
 Get-AppxPackage *LinkedIn* | Remove-AppxPackage
+
+# now installed with scoop, just in case it is still there
+winget uninstall JetBrains.IntelliJIDEA.Community

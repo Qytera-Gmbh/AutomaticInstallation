@@ -6,4 +6,4 @@ winget install --id=7zip.7zip -e
 winget install --id=Notepad++.Notepad++ -e
 winget install Microsoft.OpenJDK.17
 winget install --id=Airtame.Airtame -e
-winget install --id=JetBrains.IntelliJIDEA.Community.EAP -e
+winget install -e --id Google.Drive
