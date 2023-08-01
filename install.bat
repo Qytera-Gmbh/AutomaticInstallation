@@ -1,5 +1,9 @@
 pushd %~dp0
 @echo off
+
+echo Uninstall bloat ware ...
+powershell -ExecutionPolicy Bypass -File .\uninstall.ps1 %* || exit /b 1
+
 echo Set background image ...
 powershell -ExecutionPolicy Bypass -File .\wallpaper.ps1 %* || exit /b 1
 
