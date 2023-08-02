@@ -7,3 +7,5 @@ winget install --id=Notepad++.Notepad++ -e
 winget install Microsoft.OpenJDK.17
 winget install --id=Airtame.Airtame -e
 winget install -e --id Google.Drive
+winget install -e --id SlackTechnologies.Slack
+winget install -e --id Zoom.Zoom

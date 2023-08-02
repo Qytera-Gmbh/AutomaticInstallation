@@ -5,7 +5,8 @@ echo Update generic tools ...
 winget upgrade --all --force --silent
 
 echo Update development tools ...
-scoop update *
+WHERE scoop
+IF %ERRORLEVEL% == 0 (scoop update *)
 
 pause
 popd

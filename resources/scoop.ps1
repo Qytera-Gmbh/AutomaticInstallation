@@ -5,4 +5,4 @@ if (-Not (Get-Command 'scoop' -ErrorAction SilentlyContinue)) {
 }
 scoop bucket add extras
 scoop bucket add versions
-scoop install ditto jmeter keepass postman slack pycharm python310 terraform aws azure-cli zoom vscode idea
+scoop install ditto jmeter keepass postman pycharm python310 terraform aws azure-cli vscode idea
