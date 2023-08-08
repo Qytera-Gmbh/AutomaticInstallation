@@ -9,3 +9,4 @@ winget install --id=Airtame.Airtame -e
 winget install -e --id Google.Drive
 winget install -e --id SlackTechnologies.Slack
 winget install -e --id Zoom.Zoom
+winget install -e --id Google.Chrome
