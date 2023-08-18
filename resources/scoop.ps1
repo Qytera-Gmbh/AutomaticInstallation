@@ -8,4 +8,4 @@ if (-Not (Get-Command 'scoop' -ErrorAction SilentlyContinue)) {
 }
 scoop bucket add extras
 scoop bucket add versions
-scoop install ditto jmeter jmeter-pm keepass postman pycharm python310 terraform aws azure-cli vscode idea
+scoop install ditto jmeter jmeter-pm keepass postman pycharm python310 terraform aws azure-cli vscode idea nodejs
