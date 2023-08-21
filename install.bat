@@ -30,7 +30,7 @@ powershell -ExecutionPolicy Bypass -File .\scoop.ps1 %* || exit /b 1
 
 :PROMPT_FONTS
 SET /P AREYOUSURE=Schriftarten installieren (Y/[N])?
-IF /I "%AREYOUSURE%" NEQ "Y" GOTO PROMPT_GENERIC_INSTALL
+IF /I "%AREYOUSURE%" NEQ "Y" GOTO PROMPT_FONTS
 echo Install fonts Jetbrains Sans and Noto Sans ...
 powershell -ExecutionPolicy Bypass -File .\Install-Font.ps1 %* || exit /b 1
 
