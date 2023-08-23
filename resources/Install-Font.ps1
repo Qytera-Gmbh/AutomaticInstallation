@@ -25,10 +25,10 @@ public class FontInstaller
 
 # Liste der Verzeichnisse
 $directories = @(
-    "C:\Users\varzrelian\Desktop\font\jetbrains-mono\ttf",
-    "C:\Users\varzrelian\Desktop\font\jetbrains-mono\variable",
-    "C:\Users\varzrelian\Desktop\font\jetbrains-mono\webfonts",
-    "C:\Users\varzrelian\Desktop\font\noto-sans"
+    "font\jetbrains-mono\ttf",
+    "font\jetbrains-mono\variable",
+    "font\jetbrains-mono\webfonts",
+    "font\noto-sans"
 )
 
 foreach ($directory in $directories) {
