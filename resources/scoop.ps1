@@ -1,7 +1,6 @@
 $Env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
 
 if (-Not (Get-Command 'scoop' -ErrorAction SilentlyContinue)) {
-  [Environment]::SetEnvironmentVariable("SCOOP", "C:\scoop", "User")
   $Env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
   irm get.scoop.sh | iex
   scoop config autostash_on_conflict $true
